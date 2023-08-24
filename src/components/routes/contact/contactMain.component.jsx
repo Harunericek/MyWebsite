@@ -80,7 +80,7 @@ const ContactMain = () => {
             valueName={input.email}
             onChange={handleInputChange}
           />
-          <label>message</label>
+          <label>Your message</label>
           <textarea
             className="textInputMobil"
             rows="5"
@@ -120,7 +120,7 @@ const ContactMain = () => {
             valueName={input.email}
             onChange={handleInputChange}
           />
-          <label>message</label>
+          <label>Your message</label>
           <textarea
             className="textInputDesktop"
             rows="5"
