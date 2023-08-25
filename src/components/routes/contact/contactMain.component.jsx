@@ -19,6 +19,9 @@ const ContactMain = () => {
   });
 
   const [state, setState] = useState(false);
+  const handleClick = (e) => {
+    e.preventDefault();
+  };
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -34,6 +37,13 @@ const ContactMain = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setState((prevValue) => !prevValue);
+    setTimeout(() => {
+      setState(false);
+    }, 150);
+    setTimeout(() => {
+      alert("Thank You for the message. I will get in touch with you soon.");
+    }, 400);
     emailjs
       .sendForm(
         "service_ehmxvcj",
@@ -89,7 +99,10 @@ const ContactMain = () => {
             valueName={input.message}
             onChange={handleInputChange}
           ></textarea>
-          <button type="submit" className="messageButton">
+          <button
+            type="submit"
+            className={` ${!state ? "messageButton" : "messageButtonOnClick"}`}
+          >
             Send me a message
           </button>
         </form>
@@ -129,7 +142,10 @@ const ContactMain = () => {
             valueName={input.message}
             onChange={handleInputChange}
           ></textarea>
-          <button type="submit" className="messageButton">
+          <button
+            type="submit"
+            className={` ${!state ? "messageButton" : "messageButtonOnClick"}`}
+          >
             Send me a message
           </button>
         </form>
