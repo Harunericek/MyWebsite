@@ -169,3 +169,17 @@ label {
   border-radius: 5px;
   transition: ease-in-out 0.2s;
 }
+
+.messageButtonOnClick {
+  font-family: "Chewy", cursive;
+  color: black;
+  background-color: grey;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+  height: 60px;
+  width: 230px;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+  border: solid black 5px;
+}
