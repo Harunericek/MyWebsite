@@ -2,7 +2,7 @@ import { useMediaQuery } from "react-responsive";
 
 const AboutMain = () => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 577px)"
+    query: "(min-width: 577px)",
   });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
   return (
