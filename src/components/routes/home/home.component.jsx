@@ -1,10 +1,8 @@
-import "./styles/lightLampsLaptop.styles.css";
-
 import { useMediaQuery } from "react-responsive";
 import { motion } from "framer-motion";
 import HomeTitle from "./homeTitle.component";
 import HomeCard from "./homeCard.component";
-import FooterContact from "../footer/footerContact.component.jsx";
+import FooterContact from "../../footer/footerContact.component";
 
 const Home = (props) => {
   const isLaptopL = useMediaQuery({ query: "(min-width: 1440px)" });

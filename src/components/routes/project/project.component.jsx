@@ -2,7 +2,7 @@ import "./project.styles.css";
 import { motion } from "framer-motion";
 import ProjectTitle from "./projectTitle.component";
 import ProjectMain from "./projectMain.component";
-import FooterContact from "../footer/footerContact.component.jsx";
+import FooterContact from "../../footer/footerContact.component";
 
 const Project = () => {
   return (
@@ -12,7 +12,7 @@ const Project = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            delay: 0.2
+            delay: 0.2,
           }}
         >
           <ProjectTitle />
@@ -22,7 +22,7 @@ const Project = () => {
           animate={{ opacity: 1 }}
           transition={{
             duration: 0.4,
-            delay: 0.6
+            delay: 0.6,
           }}
         >
           <ProjectMain />
