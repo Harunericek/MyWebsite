@@ -1,10 +1,10 @@
 import { useMediaQuery } from "react-responsive";
 import { motion } from "framer-motion";
-import "./styles/home.styles.css";
+import "./home.styles.css";
 
 const HomeTitle = () => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 577px)"
+    query: "(min-width: 577px)",
   });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
   return (

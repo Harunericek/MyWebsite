@@ -2,7 +2,7 @@ import "./navbar.styles.css";
 import { Fragment, useState } from "react";
 import { Outlet } from "react-router-dom";
 import NavAnima from "./navbar.animation";
-import LinkCard from "./linkCard.component";
+import LinkCard from "../../card/linkCard.component";
 
 function Navigation(props) {
   const [activeLink, setActiveLink] = useState("Home");
@@ -20,29 +20,29 @@ function Navigation(props) {
       class1: `navbar-item1 ${activeLink === "Home" ? "active" : ""}`,
       class2: `navbar-item2 ${activeLink === "Home" ? "active" : ""}`,
       path: "Home",
-      handleClick: () => handleLinkClick("Home")
+      handleClick: () => handleLinkClick("Home"),
     },
     {
       title: "About",
       class1: `navbar-item1 ${activeLink === "Project" ? "active" : ""}`,
       class2: `navbar-item2 ${activeLink === "Project" ? "active" : ""}`,
       path: "About",
-      handleClick: () => handleLinkClick("Project")
+      handleClick: () => handleLinkClick("Project"),
     },
     {
       title: "Projects",
       class1: `navbar-item1 ${activeLink === "About" ? "active" : ""}`,
       class2: `navbar-item2 ${activeLink === "Project" ? "active" : ""}`,
       path: "Project",
-      handleClick: () => handleLinkClick("About")
+      handleClick: () => handleLinkClick("About"),
     },
     {
       title: "Contact",
       class1: `navbar-item1 ${activeLink === "Contact" ? "active" : ""}`,
       class2: `navbar-item2 ${activeLink === "Contact" ? "active" : ""}`,
       path: "Contact",
-      handleClick: () => handleLinkClick("Contact")
-    }
+      handleClick: () => handleLinkClick("Contact"),
+    },
   ];
 
   return (

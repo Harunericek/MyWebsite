@@ -1,8 +1,8 @@
-import { useMediaQuery } from "react-responsive";
-import firstProjectImg from "../../Bilder/Auftragsteilung.JPG";
 import "./project.styles.css";
-import "../home/styles/home.styles.css";
-import ProjectCard from "../../Card/projectCard.component";
+import "../home/home.styles.css";
+import { useMediaQuery } from "react-responsive";
+import firstProjectImg from "../../pictures/Auftragsteilung.JPG";
+import ProjectCard from "../../card/projectCard.component";
 
 const ProjectMain = () => {
   const isDesktopOrLaptop = useMediaQuery({

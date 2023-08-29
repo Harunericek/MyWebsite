@@ -1,4 +1,4 @@
-const Main = (props) => {
+const ContactCard = (props) => {
   return (
     <div>
       <label>{props.label}</label>
@@ -13,4 +13,4 @@ const Main = (props) => {
   );
 };
 
-export default Main;
+export default ContactCard;

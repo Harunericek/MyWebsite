@@ -1,15 +1,15 @@
 import { useMediaQuery } from "react-responsive";
 import { motion } from "framer-motion";
-import Card1 from "../../Card/card1.component";
-import Card2 from "../../Card/card2.component";
-import "./styles/home.styles.css";
+import Card1 from "../../card/card1.component";
+import Card2 from "../../card/card2.component";
+import "./home.styles.css";
 
-import Iphone from "../../Bilder/iphone.png";
-import Mac from "../../Bilder/macbook.png";
+import Iphone from "../../pictures/iphone.png";
+import Mac from "../../pictures/macbook.png";
 
 const HomeCard = () => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 577px)"
+    query: "(min-width: 577px)",
   });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
 
@@ -21,7 +21,7 @@ const HomeCard = () => {
           animate={{ opacity: 1 }}
           transition={{
             duration: 0.4,
-            delay: 0.4
+            delay: 0.4,
           }}
         >
           <div>
