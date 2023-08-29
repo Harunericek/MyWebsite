@@ -2,7 +2,7 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
-import Main from "./mobil/contactMainTemplate.component";
+import ContactCard from "../../card/contactCard.component";
 import "./contact.styles.css";
 
 const ContactMain = () => {
@@ -67,7 +67,7 @@ const ContactMain = () => {
       {isMobile && (
         <form ref={form} onSubmit={sendEmail} className="inputContainerMobil">
           <label>Name</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputMobil"
             name="name"
             type="text"
@@ -75,7 +75,7 @@ const ContactMain = () => {
             onChange={handleInputChange}
           />
           <label>Subject</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputMobil"
             name="subject"
             type="text"
@@ -83,7 +83,7 @@ const ContactMain = () => {
             onChange={handleInputChange}
           />
           <label>Email</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputMobil"
             name="email"
             type="email"
@@ -110,7 +110,7 @@ const ContactMain = () => {
       {isDesktopOrLaptop && (
         <form ref={form} onSubmit={sendEmail} className="inputContainerDesktop">
           <label>Name</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputDesktop"
             name="name"
             type="text"
@@ -118,7 +118,7 @@ const ContactMain = () => {
             onChange={handleInputChange}
           />
           <label>Subject</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputDesktop"
             name="subject"
             type="text"
@@ -126,7 +126,7 @@ const ContactMain = () => {
             onChange={handleInputChange}
           />
           <label>Email</label>
-          <Main
+          <ContactCard
             classNameItem="wordInputDesktop"
             name="email"
             type="email"
