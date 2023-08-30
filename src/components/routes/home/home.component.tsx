@@ -1,10 +1,11 @@
 import { useMediaQuery } from "react-responsive";
-import { motion } from "framer-motion";
 import HomeTitle from "./homeTitle.component";
 import HomeCard from "./homeCard.component";
 import FooterContact from "../../footer/footerContact.component";
 
-const Home = (props) => {
+const Home = () => {
+  const name: string = "as";
+
   const isLaptopL = useMediaQuery({ query: "(min-width: 1440px)" });
   return (
     <div>
