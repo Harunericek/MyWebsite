@@ -1,12 +1,11 @@
 import "./footer.styles.css";
-
+import SubscriptIcon from '@mui/icons-material/Subscript';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import { useMediaQuery } from "react-responsive";
 let urlLinkedIn = "https://www.linkedin.com/in/harun-ericek-2bb38a273";
 let urlEmail = "mailto:harunericek@hotmail.com";
-let urlInstagram = "";
+let urlXing = "https://www.xing.com/profile/Harun_Ericek";
 
 const FooterContact = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -20,14 +19,14 @@ const FooterContact = () => {
       {isMobile && (
         <div>
           <div className="footer-container">
-            <a href={urlLinkedIn} className="footer-item">
+            <a href={urlLinkedIn} target="blank" className="footer-item">
               <LinkedInIcon fontSize="large" />
             </a>
-            <a href={urlEmail} className="footer-item">
+            <a href={urlEmail} target="blank" className="footer-item">
               <EmailIcon fontSize="large" />
             </a>
-            <a href={urlInstagram} className="footer-item">
-              <InstagramIcon fontSize="large" />
+            <a href={urlXing} target="blank" className="footer-item">
+              <SubscriptIcon fontSize="large" />
             </a>
           </div>
           <div className="copyright">
@@ -38,17 +37,17 @@ const FooterContact = () => {
       {isDesktopOrLaptop && (
         <div>
           <div className="footer-container-Desktop">
-            <a href={urlLinkedIn} className="footer-item-Desktop">
+            <a href={urlLinkedIn} target="blank" className="footer-item-Desktop">
               <LinkedInIcon fontSize="large" />
               <h3>LinkedIn</h3>
             </a>
-            <a href={urlEmail} className="footer-item-Desktop">
+            <a href={urlEmail} target="blank" className="footer-item-Desktop">
               <EmailIcon fontSize="large" />
               <h3>Mail Me</h3>
             </a>
-            <a href={urlInstagram} className="footer-item-Desktop">
-              <InstagramIcon fontSize="large" />
-              <h3>Instagram</h3>
+            <a href={urlXing} target="blank" className="footer-item-Desktop">
+              <SubscriptIcon fontSize="large" />
+              <h3>Xing</h3>
             </a>
           </div>
           <div className="copyright">
