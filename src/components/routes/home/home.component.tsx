@@ -4,9 +4,6 @@ import HomeCard from "./homeCard.component";
 import FooterContact from "../../footer/footerContact.component";
 
 const Home = () => {
-  const name: string = "as";
-
-  const isLaptopL = useMediaQuery({ query: "(min-width: 1440px)" });
   return (
     <div>
       <main className="titleContainer">

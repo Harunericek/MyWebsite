@@ -3,6 +3,7 @@ import { Fragment, useState } from "react";
 import { Outlet } from "react-router-dom";
 import NavAnima from "./navbar.animation";
 import LinkCard from "../../card/linkCard.component";
+import Chat from "../../chat/chat.component";
 
 function Navigation(props) {
   const [activeLink, setActiveLink] = useState("Home");
@@ -76,6 +77,7 @@ function Navigation(props) {
         })}
       </div>
       <Outlet />
+      <Chat />
     </Fragment>
   );
 }
