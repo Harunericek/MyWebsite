@@ -1,4 +1,5 @@
 import { useMediaQuery } from "react-responsive";
+import Me from "../../pictures/Me.JPG";
 
 const AboutMain = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -10,11 +11,7 @@ const AboutMain = () => {
       {isMobile && (
         <div className="mainSectionMobile">
           <div className="imgCardMobile">
-            <img
-              className="imgMobile"
-              alt="me"
-              src="https://media.licdn.com/dms/image/C4E03AQGdRfsqmWHPvw/profile-displayphoto-shrink_800_800/0/1646772234984?e=1697068800&v=beta&t=nbsJNRz40oeSMuk12i9FqtjMZCbAONM7IcjFRLEWx6s"
-            />
+            <img className="imgMobile" alt="me" src={Me} />
             <div className="imgCardBottom">
               <span className="imgCardBottomTitle">
                 Harun Ericek - React Developer
@@ -38,11 +35,7 @@ const AboutMain = () => {
       {isDesktopOrLaptop && (
         <div className="mainSectionDesktop">
           <div className="imgCardDesktop">
-            <img
-              className="imgDesktop"
-              alt="me"
-              src="https://media.licdn.com/dms/image/C4E03AQGdRfsqmWHPvw/profile-displayphoto-shrink_800_800/0/1646772234984?e=1697068800&v=beta&t=nbsJNRz40oeSMuk12i9FqtjMZCbAONM7IcjFRLEWx6s"
-            />
+            <img className="imgDesktop" alt="me" src={Me} />
             <div className="imgCardBottom">
               <span className="imgCardBottomTitle">
                 Harun Ericek - React Developer
