@@ -1,7 +1,12 @@
+#secondProjectColor {
+  background-color: rgb(22, 18, 231);
+}
+
 .card-rectangle-project {
   width: 800px;
   height: 450px;
   background-color: rgb(91, 44, 179);
+  margin-left: 50px;
   border-radius: 50px;
   overflow: hidden;
 }

@@ -10,12 +10,12 @@ const ProjectTitle = () => {
     <div>
       {isDesktopOrLaptop && (
         <div className="titleDesktop">
-          <span>My Projects</span>
+          <span>Projects</span>
         </div>
       )}
       {isMobile && (
         <div className="titleMobile">
-          <span>My Projects</span>
+          <span>Projects</span>
         </div>
       )}
     </div>
