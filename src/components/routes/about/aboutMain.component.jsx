@@ -14,7 +14,7 @@ const AboutMain = () => {
             <img className="imgMobile" alt="me" src={Me} />
             <div className="imgCardBottom">
               <span className="imgCardBottomTitle">
-                Harun Ericek - React Developer
+                Harun Ericek - Frontend Developer
               </span>
             </div>
           </div>
@@ -38,7 +38,7 @@ const AboutMain = () => {
             <img className="imgDesktop" alt="me" src={Me} />
             <div className="imgCardBottom">
               <span className="imgCardBottomTitle">
-                Harun Ericek - React Developer
+                Harun Ericek - Frontend Developer
               </span>
             </div>
           </div>
