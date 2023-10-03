@@ -28,9 +28,6 @@ const About = () => {
           <AboutMain />
         </motion.div>
       </main>
-      <footer>
-        <FooterContact />
-      </footer>
     </div>
   );
 };

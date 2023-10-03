@@ -28,9 +28,6 @@ const Contact = () => {
           <ContactMain />
         </motion.div>
       </main>
-      <footer>
-        <FooterContact />
-      </footer>
     </div>
   );
 };

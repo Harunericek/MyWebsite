@@ -28,9 +28,6 @@ const Project = () => {
           <ProjectMain />
         </motion.div>
       </main>
-      <footer>
-        <FooterContact />
-      </footer>
     </div>
   );
 };

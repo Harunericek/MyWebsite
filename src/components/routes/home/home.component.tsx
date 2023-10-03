@@ -10,9 +10,6 @@ const Home = () => {
         <HomeTitle />
         <HomeCard />
       </main>
-      <footer>
-        <FooterContact />
-      </footer>
     </div>
   );
 };
