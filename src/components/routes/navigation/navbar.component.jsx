@@ -79,7 +79,6 @@ function Navigation(props) {
       </div>
       <Outlet />
       <Footer />
-      <Chat />
     </Fragment>
   );
 }

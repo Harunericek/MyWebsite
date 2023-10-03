@@ -1,11 +1,11 @@
 .materialUIStyle {
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
   transition: 0.2s ease-in-out;
   opacity: 0;
 }
 .materialUIStyleHover {
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
   transition: 0.2s ease-in-out;
   opacity: 1;

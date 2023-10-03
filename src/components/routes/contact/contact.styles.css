@@ -13,7 +13,7 @@ label {
 }
 
 .titleDesktop {
-  color: rgb(143, 106, 255);
+  color: rgb(0, 0, 0);
   font-size: 125px;
   font-weight: bold;
   margin-top: 50px;
@@ -22,7 +22,7 @@ label {
 }
 
 .titleMobile {
-  color: rgb(143, 106, 255);
+  color: rgb(0, 0, 0);
   font-size: 50px;
   align-self: center;
   font-weight: bold;
@@ -95,7 +95,7 @@ label {
 }
 
 .subtitleMobile {
-  color: rgb(131, 90, 253);
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@ label {
 }
 
 .subtitleDesktop {
-  color: rgb(131, 90, 253);
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,13 +114,17 @@ label {
 }
 
 .inputContainerMobil {
-  background-color: rgb(145, 119, 206, 0.7);
   display: flex;
   flex-direction: column;
   border: solid 1px;
-  border-radius: 20px;
   width: 300px;
   padding: 40px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .wordInputMobil {
@@ -136,13 +140,17 @@ label {
 }
 
 .inputContainerDesktop {
-  background-color: rgb(145, 119, 206, 0.7);
   display: flex;
   flex-direction: column;
   border: solid 1px;
-  border-radius: 20px;
   width: 700px;
   padding: 40px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .wordInputDesktop {
