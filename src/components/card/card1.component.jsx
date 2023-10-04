@@ -73,7 +73,7 @@ const Card1 = (props) => {
             <h2
               style={{
                 fontFamily: "Chewy",
-                color: "white",
+                color: "black",
               }}
             >
               Responsive across devices

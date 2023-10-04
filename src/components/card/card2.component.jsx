@@ -51,7 +51,7 @@ const Card1 = (props) => {
               style={{
                 fontSize: "40px",
                 fontFamily: "Chewy",
-                color: "white",
+                color: "black",
                 marginTop: "-50px",
               }}
             >

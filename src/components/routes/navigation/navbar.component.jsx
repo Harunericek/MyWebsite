@@ -3,7 +3,6 @@ import { Fragment, useState } from "react";
 import { Outlet } from "react-router-dom";
 import NavAnima from "./navbar.animation";
 import LinkCard from "../../card/linkCard.component";
-import Chat from "../../chat/chat.component";
 import Footer from "../../footer/footerContact.component";
 
 function Navigation(props) {
