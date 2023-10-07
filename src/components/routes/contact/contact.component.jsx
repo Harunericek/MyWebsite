@@ -2,7 +2,6 @@ import "./contact.styles.css";
 import { motion } from "framer-motion";
 import ContactTitle from "./contactTitle.component";
 import ContactMain from "./contactMain.component";
-import FooterContact from "../../footer/footerContact.component";
 
 const Contact = () => {
   return (
