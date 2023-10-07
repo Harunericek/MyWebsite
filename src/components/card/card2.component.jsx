@@ -77,7 +77,7 @@ const Card1 = (props) => {
             }}
           >
             <img
-              style={{ scale: "0.6" }}
+              style={{ scale: "1" }}
               className={` ${
                 state
                   ? "imgPositionAndStyleStaticMobile1"

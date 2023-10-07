@@ -1,7 +1,7 @@
 .imgCardBottom {
   align-items: center;
-  background-color: rgb(153, 20, 194);
   border: solid 2px;
+  border-radius: 0 0 10px 10px;
   border-color: black;
   color: white;
   display: flex;
