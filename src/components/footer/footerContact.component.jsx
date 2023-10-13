@@ -1,5 +1,5 @@
 import "./footer.styles.css";
-import SubscriptIcon from '@mui/icons-material/Subscript';
+import SubscriptIcon from "@mui/icons-material/Subscript";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import { useMediaQuery } from "react-responsive";
@@ -9,7 +9,7 @@ let urlXing = "https://www.xing.com/profile/Harun_Ericek";
 
 const FooterContact = () => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 577px)"
+    query: "(min-width: 577px)",
   });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
   const now = new Date();
@@ -37,7 +37,11 @@ const FooterContact = () => {
       {isDesktopOrLaptop && (
         <div>
           <div className="footer-container-Desktop">
-            <a href={urlLinkedIn} target="blank" className="footer-item-Desktop">
+            <a
+              href={urlLinkedIn}
+              target="blank"
+              className="footer-item-Desktop"
+            >
               <LinkedInIcon fontSize="large" />
               <h3>LinkedIn</h3>
             </a>
