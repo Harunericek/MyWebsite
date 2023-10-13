@@ -2,12 +2,11 @@ import "./about.styles.css";
 import { motion } from "framer-motion";
 import AboutTitle from "./aboutTitle.component";
 import AboutMain from "./aboutMain.component";
-import FooterContact from "../../footer/footerContact.component";
 
 const About = () => {
   return (
     <div>
-      <main className="titleContainer">
+      <main id="titleContainer">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
