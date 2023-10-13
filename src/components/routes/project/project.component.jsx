@@ -2,7 +2,6 @@ import "./project.styles.css";
 import { motion } from "framer-motion";
 import ProjectTitle from "./projectTitle.component";
 import ProjectMain from "./projectMain.component";
-import FooterContact from "../../footer/footerContact.component";
 
 const Project = () => {
   return (
